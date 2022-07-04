@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+    <title>Flex3</title>
+</head>
+<body class="flex-columns-body">
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="./index.html">Top</a></li>
+                <li><a href="./info.html">Info</a></li>
+                <li><a href="./flex2.html">Flex2</a></li>
+                <li><a href="./flex3.html">Flex3</a></li>
+                <li><a href="./grid2.html">Grid2</a></li>
+                <li><a href="./grid3.html">Grid3</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <main class="flex-columns">
+        <article class="flex-columns-main">
+            main article. 3 columns by flex. 
+            <div id="banana">Banana is ...</div>
+            <div id="lemon">Lemon is ...</div>
+        </article>
+        <aside class="flex-columns-aside">left</aside>
+        <nav class="flex-columns-nav">
+            right
+            <ul>
+                <li><a href="#banana">banana</a></li>
+                <li><a href="#lemon">lemon</a></li>
+            </ul>    
+        </nav>
+    </main>
+    <footer>&copy; Apple Bravo Charlie</footer>
+</body>
+</html>
