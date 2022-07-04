@@ -2,7 +2,7 @@
 
 HTMLとCSSによるウェブサイト テンプレートを0から作成する動画で使用したサンプルです. 
 
-動画: https://youtu.be/KCIxflGXgaU
+動画: https://youtu.be/5vPEB4lMKJ4
 
 
 
